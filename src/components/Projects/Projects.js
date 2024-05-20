@@ -27,9 +27,19 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZ62WeSzL2eaS_lZGtIZKJqcjIqMNzhrMddNk_KjNDQ&s"
+                imgPath="https://www.91-cdn.com/hub/wp-content/uploads/2023/08/Netflix-features.jpg"
               //isBlog={false}
-              title="Travell App"
+              title="Netflix Clone"
+              // description=""
+              link="http://localhost:3001/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://www.codingnepalweb.com/wp-content/uploads/2023/07/How-to-Create-An-Amazon-Clone-in-HTML-and-CSS.jpg"
+              //isBlog={false}
+              title="Amazon Clone App"
               //description=""
               //link="https://github.com/beebus/"
             />
@@ -37,43 +47,33 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Netflix_logo.svg/1200px-Netflix_logo.svg.png"
+              imgPath="https://reactjsexample.com/content/images/2023/03/Code-2023-17-07-36.jpg"
               //isBlog={false}
-              title="Netflix UI Clone"
+              title="Google Keep Clone"
+              //description=""
+              link="https://ankitborgohain.github.io/test_Keep_App//"
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://www.devopsschool.com/blog/wp-content/uploads/2023/12/image-168.png"
+              //isBlog={false}
+              title="SpringBoot CRUD App"
+              //description=""
+              link="https://github.com/ankitBorgohain/crudStudent"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://media.geeksforgeeks.org/wp-content/uploads/20230518223324/Screenshot-from-2023-05-18-22-33-11.png"
+              //isBlog={false}
+              title="TODO App"
               //description=""
               //link="https://github.com/beebus/"
             />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/6a/84/b26a848e-ff64-6e9e-b87b-d51db000093a/logo_tasks_color-0-1x_U007emarketing-0-6-0-85-220-0.png/1200x630wa.png"
-              //isBlog={false}
-              title="Google To-Do"
-              //description=""
-              link="https://tasksboard.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz5MNWMDghIqfahwp_B4UYxc_oBwIYgXdJwaWnx8haZA&s"
-              //isBlog={false}
-              title="Basic Google Keep Clone"
-              //description=""
-              link="https://ankitborgohain.github.io/test_Keep_App/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZ62WeSzL2eaS_lZGtIZKJqcjIqMNzhrMddNk_KjNDQ&s"
-              //isBlog={false}
-              title="Amazon UI Clone"
-              //description=""
-              //link="https://github.com/beebus/"
-            />
-          </Col>
+          </Col> 
         </Row>
       </Container>
     </Container>
