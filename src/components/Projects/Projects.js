@@ -31,11 +31,11 @@ function Projects() {
               //isBlog={false}
               title="Netflix Clone"
               // description=""
-              link="http://localhost:3001/"
+              link="https://test-netflix-clone-react.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://www.codingnepalweb.com/wp-content/uploads/2023/07/How-to-Create-An-Amazon-Clone-in-HTML-and-CSS.jpg"
               //isBlog={false}
@@ -43,7 +43,7 @@ function Projects() {
               //description=""
               //link="https://github.com/beebus/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -71,7 +71,7 @@ function Projects() {
               //isBlog={false}
               title="TODO App"
               //description=""
-              //link="https://github.com/beebus/"
+              link="https://github.com/ankitborgohain/"
             />
           </Col> 
         </Row>
